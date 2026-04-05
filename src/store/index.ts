@@ -8,5 +8,8 @@ export const useTaskStore = create<TaskStore>((set) => ({
     setCurrentModal: (modal: TCurrentModal) => {
       set({ currentModal: modal });
     },
+    setSearch: (search: string | undefined) => {
+      set({ search });
+    },
   },
 }));

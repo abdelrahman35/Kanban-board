@@ -1,11 +1,17 @@
-const Header = () => {
+import { Box, Typography } from "@mui/material";
+
+const Header = ({ totalTasks }: { totalTasks: number }) => {
   return (
-    <header className="w-full h-16 bg-gray-800 text-white flex items-center justify-center">
-      <div>
-        <h2>KANBAN BOARD</h2>
-        <span>tasks</span>
-      </div>
-    </header>
+    <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
+      <Box sx={{ display: "flex", flexDirection: "column" }}>
+        <Typography variant="h4" component="h1" sx={{ fontWeight: 700 }}>
+          KANBAN BOARD
+        </Typography>
+        <Typography variant="subtitle2" component="h1">
+          {`${totalTasks} tasks`}
+        </Typography>
+      </Box>
+    </Box>
   );
 };
 

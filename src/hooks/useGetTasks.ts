@@ -1,9 +1,9 @@
 import { fetchTasks } from "@/api/tasks.api";
 import { useQuery } from "@tanstack/react-query";
 
-export const useTasks = (enabled: boolean) => {
+export const useGetTasks = (enabled: boolean) => {
   return useQuery({
-    queryKey: ["fetch-tasks"],
+    queryKey: ["tasks"],
     queryFn: fetchTasks,
     enabled,
   });

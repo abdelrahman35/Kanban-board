@@ -1,10 +1,40 @@
 {
   "tasks": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Design homepage",
       "description": "Include hero section",
-      "column": "backlog"
+      "column": "backlog",
+      "status": "backlog"
+    },
+    {
+      "title": "new task",
+      "description": "desc",
+      "status": "in_progress",
+      "priority": "medium",
+      "id": "mky7kiuXa2w"
+    },
+    {
+      "title": "task",
+      "description": "2",
+      "status": "done",
+      "priority": "low",
+      "id": "cWdgsGMaPFI"
+    },
+    {
+      "title": "test",
+      "description": "test",
+      "status": "done",
+      "priority": "medium",
+      "id": "iNTlELYsz14"
+    },
+    {
+      "title": "new task 2",
+      "description": "desc",
+      "status": "review",
+      "priority": "high",
+      "id": "RWNhpDFtaiI"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
