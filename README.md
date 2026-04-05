@@ -1,7 +1,9 @@
 # KANBAN BOARD
 
 ## 🚀 Live Demo
+
 Backend API Mock: https://69d266755043d95be971d860.mockapi.io/api/tasks
+
 Frontend Deployment: https://kanban-board-mindluster.netlify.app/
 
 ## How to Run the Project
